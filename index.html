@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Narmin Zakizade Portfolio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css">
+    <script
+    src="https://kit.fontawesome.com/5bfe58aaf0.js"
+    crossorigin="anonymous"
+  ></script>
+</head>
+<body>
+    <header>
+      
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+                <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+      <!-- Introduction -->
+      <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Narmin Zakizade
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">Front-end developer based in Toronto, CA.</p>
+        <a class="section__button" href="./files/resume-NarminZakizade.pdf">Resume</a>
+    </section>
+    
+    <!-- Projects -->
+    <section class="work" id="projects">
+        <h2 class="section__title section__title--work">
+            Projects
+        </h2>
+        <div class="work__cards">
+            <div class="card">
+                <p class="card__title">Weekly Planner</p>
+                <p class="card__desc">React.js, React Hooks</p>
+                <a class="card__live" href="https://narminzakizade.me/WeeklyPlanner/">View Live</a>
+                <a class="card__code" href="https://github.com/NarminZakizade/WeeklyPlanner">Source Code</a>
+
+            </div>
+            <div class="card">
+                <p class="card__title">Starbucks Landing Page Clone Long</p>
+                <p class="card__desc">HTML, CSS</p>
+                <a class="card__live" href="http://narminzakizade.me/Starbucks-Clone-Long-Version/">View Live</a>
+                <a class="card__code" href="https://github.com/NarminZakizade/Starbucks-Clone-Long-Version">Source Code</a>
+            </div>
+            <div class="card">
+                <p class="card__title">Weather App</p>
+                <p class="card__desc">React.js, React Hooks</p>
+                <a class="card__live" href="https://narminzakizade.me/WeatherApp/">View Live</a>
+                <a class="card__code" href="https://github.com/NarminZakizade/WeatherApp">Source Code</a>
+            </div>
+           
+            <div class="card">
+                <p class="card__title">Starbucks Landing Page Clone Short</p>
+                <p class="card__desc">HTML, CSS</p>
+                <a class="card__live" href="http://narminzakizade.me/Starbucks-Clone-Short-Version/">View Live</a>
+                <a class="card__code" href="https://github.com/NarminZakizade/Starbucks-Clone-Short-Version">Source Code</a>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="contact-container">
+          <h2>Contact</h2>
+          <p>Have a question or project? Message me!</p>
+          <form class="contact__form" id="my-form"  action="https://formspree.io/f/xyyooqgb"
+          method="POST">
+            <div class="form-group">
+              <label for="name"></label>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Name"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="email"></label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Email"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="subject"></label>
+              <input type="text" name="subject" id="subject" placeholder="Subject" />
+            </div>
+            <div class="form-group">
+              <label for="message"></label>
+              <textarea
+                name="message"
+                placeholder="Message"
+                id="message"
+                cols="30"
+                rows="6"
+                required
+              ></textarea>
+            </div>
+            <button class="contact__button" type="submit">Send</button>
+          </form>
+        </div>
+      </section>
+
+    <footer class="footer">
+        <p>
+          <script>
+            document.write(new Date().getFullYear());
+          </script>
+          Narmin Zakizade.
+        </p>
+        <ul class="social-list">
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://github.com/NarminZakizade">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://www.linkedin.com/in/narmin-zakizade/">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </li>
+        </ul>
+      </footer>
+      <script src="script.js"></script>
+</body>
+</html>
+
